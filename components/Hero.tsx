@@ -52,7 +52,10 @@ const Hero = () => {
             />
           </h2>
 
-          <a href="">
+          <a
+            href="public/sambodhi_roy_resume.pdf"
+            download={"Sambodhi_Roy_resume"}
+          >
             <MagicButton
               title="Download my Resume"
               icon={<FaLocationArrow />}
