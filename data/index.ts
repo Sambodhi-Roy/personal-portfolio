@@ -74,6 +74,20 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Reflectly - A Mood Tracking Website",
+    des: "Track your mood everyday of the year!",
+    img: "/p6.png",
+    iconLists: [
+      "/js.svg",
+      "/next.svg",
+      "/netlify.svg",
+      "/tail.svg",
+      "/firebase-icon.svg",
+    ],
+    link: "https://reflectly-mood-tracker.netlify.app/",
+  },
+  {
+    id: 1,
     title: "ScreenSense - Movie Recommender System",
     des: "Unlock your next favorite movie with a recommender system!",
     img: "/p1.svg",
@@ -100,7 +114,7 @@ export const projects = [
     des: "Highlighting my journey, skills, and creations in one place!",
     img: "/p5.svg",
     iconLists: ["/next.svg", "/tail.svg", "/re.svg"],
-    link: "https://article-summarizer-kappa-nine.vercel.app",
+    link: "./",
   },
   {
     id: 3,
