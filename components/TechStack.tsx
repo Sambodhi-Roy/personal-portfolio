@@ -37,6 +37,9 @@ const stacks = [
   { id: 31, name: "Vite", image: "/vite.svg" },
   { id: 32, name: "Vercel", image: "/vercel.png" },
   { id: 33, name: "Netlify", image: "/netlify.svg" },
+  { id: 34, name: "FastAPI", image: "/fastapi.png" },
+  { id: 35, name: "Jupyter Notebook", image: "/jupyter-nb.png" },
+  { id: 36, name: "Google Colab", image: "/colab.png" },
 ];
 
 
