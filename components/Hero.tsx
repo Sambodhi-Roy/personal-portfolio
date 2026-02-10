@@ -44,7 +44,7 @@ const Hero = () => {
                   "A Problem Solver",
                   "A Web Developer",
                   "An AI/ML Enthusiast",
-                  "A Dreamer who Codes",
+                  "A Coder to Summarise",
                 ],
                 autoStart: true,
                 loop: true,

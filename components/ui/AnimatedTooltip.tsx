@@ -42,13 +42,14 @@ export const AnimatedTooltip = ({
         {items.map((item, idx) => (
           <div
             className="px-8 py-6 relative group"
-            key={item.name}
+            key={item.id}
             onMouseEnter={() => setHoveredIndex(item.id)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <AnimatePresence mode="popLayout">
               {hoveredIndex === item.id && (
                 <motion.div
+                  key={item.id}
                   initial={{ opacity: 0, y: 20, scale: 0.6 }}
                   animate={{
                     opacity: 1,
