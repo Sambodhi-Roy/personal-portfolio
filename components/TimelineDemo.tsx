@@ -1,5 +1,6 @@
 import React from "react";
 import { Timeline } from "@/components/ui/Timeline";
+import { section } from "framer-motion/client";
 
 export function TimelineDemo() {
   const data = [
@@ -52,8 +53,10 @@ export function TimelineDemo() {
   ];
   
   return (
+    <section id="work-experience">
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
     </div>
+    </section>
   );
 }

@@ -2,7 +2,9 @@ import { url } from "inspector";
 
 export const navItems = [
   { name: "Home", link: "#home" },
+  { name: "About", link: "#about" },
   { name: "Tech Stack", link: "#tech" },
+  { name: "Work Experience", link: "#work-experience" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
