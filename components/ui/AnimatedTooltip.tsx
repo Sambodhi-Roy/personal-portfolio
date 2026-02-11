@@ -24,12 +24,12 @@ export const AnimatedTooltip = ({
   // rotate the tooltip
   const rotate = useSpring(
     useTransform(x, [-100, 100], [-45, 45]),
-    springConfig
+    springConfig,
   );
   // translate the tooltip
   const translateX = useSpring(
-    useTransform(x, [-100, 100], [-50, 50]),
-    springConfig
+    useTransform(x, [-100, -100], [-50, 80]),
+    springConfig,
   );
   const handleMouseMove = (event: any) => {
     const halfWidth = event.target.offsetWidth / 2;
@@ -67,10 +67,10 @@ export const AnimatedTooltip = ({
                     rotate: rotate,
                     whiteSpace: "wrap",
                   }}
-                  className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2 flex-wrap"
+                  className="absolute -top-8 -left-1/2 translate-x-1/2 flex text-xs  flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2 flex-wrap"
                 >
-                  <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
-                  <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
+                  <div className="absolute inset-x-8 z-30 w-[50%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
+                  <div className="absolute left-2 w-[50%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
                   <div className="font-bold text-white relative z-30 text-base">
                     {item.name}
                   </div>

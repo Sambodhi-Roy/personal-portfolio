@@ -5,6 +5,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import Footer from "@/components/Footer";
 import TechStack from "@/components/TechStack";
+import { TimelineDemo } from "@/components/TimelineDemo";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <TechStack />
+        <TimelineDemo/>
         <RecentProjects />
         <Footer />
       </div>
