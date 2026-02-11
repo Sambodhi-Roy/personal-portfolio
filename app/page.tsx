@@ -6,6 +6,7 @@ import { navItems } from "@/data";
 import Footer from "@/components/Footer";
 import TechStack from "@/components/TechStack";
 import { TimelineDemo } from "@/components/TimelineDemo";
+import Grid from "@/components/Grid";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Grid/>
         <TechStack />
         <TimelineDemo/>
         <RecentProjects />
