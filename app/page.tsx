@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import TechStack from "@/components/TechStack";
 import { TimelineDemo } from "@/components/TimelineDemo";
 import Grid from "@/components/Grid";
+import CodingProfiles from "@/components/CodingProfiles";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <TechStack />
         <TimelineDemo/>
         <RecentProjects />
+        <CodingProfiles/>
         <Footer />
       </div>
     </main>

@@ -47,7 +47,7 @@ export function TechStack() {
   return (
     <div className="py-20" id="tech">
       <h1 className="heading pb-20">
-        <span className="text-purple">Technologies</span> I have work with
+        <span className="text-purple">Technologies</span> I have worked with
       </h1>
       <div className="flex flex-row items-center justify-center mb-10 w-full">
         <AnimatedTooltip items={stacks} />
